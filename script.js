@@ -15,7 +15,7 @@ function showScene(index) {
 
   previousButton.disabled = currentScene === 0;
   nextButton.disabled = currentScene === scenes.length - 1;
-  status.textContent = `Scene ${currentScene + 1} of ${scenes.length}`;
+ status.textContent = `Report scene ${currentScene + 1} of ${scenes.length}`;
 }
 
 previousButton.addEventListener("click", () => showScene(currentScene - 1));
