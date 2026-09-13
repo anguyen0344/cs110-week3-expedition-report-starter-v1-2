@@ -29,3 +29,6 @@ I changed “Scene” to “Report scene,” saved the file, refreshed the brows
 
 **My next test:**  
 Test the buttons with the keyboard and at a narrow browser width.
+## Peer Test
+
+A classmate tested all four scenes. The images displayed correctly, the text was readable, and the Previous and Next buttons worked.
