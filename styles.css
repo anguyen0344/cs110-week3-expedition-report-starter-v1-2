@@ -1,10 +1,10 @@
 :root {
   color-scheme: dark;
-  --ink: #eaf8fb;
+  --ink: #edf8fb;
   --muted: #a3b4ba;
-  --surface: #031218;
-  --line: #17424d;
-  --signal: #47ddff;
+  --surface: #061016;
+  --line: #0b1f29;
+  --signal: #59ddff;
 }
 
 * { box-sizing: border-box; }
@@ -21,7 +21,7 @@ body {
 button { font: inherit; }
 
 .report-shell {
-  width: min(900px, 100%);
+  width: min(72rem, calc(100% - 2rem));
   margin: 0 auto;
   border: 1px solid var(--line);
   background: color-mix(in srgb, var(--surface) 92%, transparent);
@@ -47,7 +47,12 @@ p { color: var(--muted); line-height: 1.7; }
   color: var(--signal);
   background: linear-gradient(135deg, #0c2c35, #071014);
 }
-
+.scene img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+}
 .scene-controls {
   display: grid;
   grid-template-columns: auto 1fr auto;
